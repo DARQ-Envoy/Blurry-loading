@@ -9,7 +9,7 @@ let parEl2=document.querySelector("#par2")
     const imgs=(i)=>{
         setTimeout(function(){
         backEl=bege.style;
-        backEl.backgroundImage=`url('../MY-IMAGES/photos/${arr[i]}')`
+        backEl.backgroundImage=`url('${arr[i]}')`
         },4000*i)
     }
     for (let i=0;i<arr.length;i++){
